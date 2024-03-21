@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-for ch in range(97, 123):
-    if ch == 101 or ch == 113:
+for i in range(97, 123):
+    if i == 101 or i == 113:
         continue
-    print("{:c}".format(ch), end="")
+    print("{;i}".format(i), end="")
